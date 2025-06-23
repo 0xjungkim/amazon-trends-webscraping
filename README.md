@@ -31,3 +31,49 @@ The final output includes:
    ```bash
    git clone https://github.com/yourusername/amazon-trends-webscraping.git
    cd amazon-trends-webscraping
+
+2. Install required packages:
+   ```bash
+   pip install -r requirements.txt
+
+3. Download and set up [ChromeDriver](https://sites.google.com/chromium.org/driver/) that matches your browser version. Ensure it's added to your system PATH.
+
+4. Open the notebook:
+   ```bash
+   jupyter notebook amazon_scraper_jung.ipynb
+
+---
+
+## Key Features
+
+- Scrapes dynamic web pages that load content via JavaScript
+- Automatically scrolls to load full bestseller lists
+- Parses and structures product data for further analysis
+- Designed with flexibility for adapting to other Amazon departments
+
+---
+
+## Challenges Faced
+- Dealing with Amazon's **infinite scroll**
+- Ensuring data loads completely before extraction
+- Adapting scraping logic to handle layout variations across departments
+
+---
+
+## Project Context
+This project was created as part of the <i> Programming for Business Analytics</i> course at Babson College (Spring 2024).
+It reflects a hands-on application of automation and data collection techniques for real-world business analysis.
+
+---
+
+## Author
+**Jung Kim**
+Babson MBA | Business Analytics & Global Management
+[LinkedIn Profile](https://www.linkedin.com/in/jayjungkim/)
+
+---
+
+## License
+This project is for educational purposes only. Please review Amazon's [robots.txt](https://www.amazon.com/robots.txt) and terms of service before conducting scraping on a large scale or for commercial purposes.
+
+---
